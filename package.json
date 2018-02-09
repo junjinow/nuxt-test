@@ -5,7 +5,7 @@
   "author": "Junji Noma <junjinoma@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "env-cmd .env nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "env-cmd": "^7.0.0",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",
